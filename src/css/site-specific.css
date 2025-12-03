@@ -4,482 +4,78 @@
   All styles below will inherently take priority over bootstrap styles 
   https://stackoverflow.com/questions/20721248/how-can-i-override-bootstrap-css-styles 
   */
-
-body,
-html {
-  font-size: 16px;
-  font-family: "Sora", sans-serif;
-}
-a, a:active, a:focus {
-  outline: none;
-  font-family: 'Sora', sans-serif;
-}
-
-h1 {
-  font-size: 2.5rem;
-  font-family: 'Manrope', sans-serif;
-}
-
-h2 {
-  font-size: 2rem;
-  font-family: 'Manrope', sans-serif;
-}
-
-h4 {
-  font-size: 1.25rem;
-  font-family: 'Manrope', sans-serif;
-}
-
-footer {
-  background-color: #4C81C5;
-}
-
-p {
-  font-size: 1rem;
-  font-family: 'Sora', sans-serif;
-}
-
-small {
-  font-size: 0.875rem;
-}
-
-#root {
-  flex-grow: 1;
-}
-
-#about-card {
-  display: flex;
-  min-height: 30vw;
-  justify-content: space-between;
-  padding: 15px;
-}
-
-#about-us-blurb {
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  flex-grow: 1;
-  flex-basis: 0;
-}
-
-.bar-divider {
-  width: 100%;
-  height: 2px;
-}
-
-#collage {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-basis: 0;
-  flex-grow: 1;
-}
-
-#collage img {
-  object-fit: cover;
-}
-
-.collage-item {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-#contact-button {
-  display: flex;
-  border-radius: .6rem;
-  background: #FFAD69;
-  width: 150px;
-  height: 40px;
-  justify-content: space-around;
-  align-items: center;
-  margin: 15px;
-}
-
-#contact-button > a {
-  color: #FBFEF9;
-}
-
-.contact-main .col-sm-6 {
-  height: 400px;
-}
-
-.contact-main .col-1 {
-  border-right: 1px solid rgba(233, 233, 233, 0.7);
-}
-
-.copyright {
-  padding-top: 10px;
-}
-
-.csa-board .col-sm-6 {
-  border: 1px solid rgba(233, 233, 233, 0.7);
-  padding: 10px;
-  min-height: 600px;
-}
-
-.csa-board > .col-sm-3 {
-  border-left: 5px solid rgba(233, 233, 233, 0.7);
-  border-top: 5px solid rgba(233, 233, 233, 0.7);
-  padding: 20px;
-  height: 500px;
-}
-
-.csa-board .col-sm-3:nth-child(4n + 0) {
-  border-right: 5px solid rgba(233, 233, 233, 0.7);
-}
-
-.csa-board .col-sm-3:nth-last-child(-n + 4) {
-  border-bottom: 5px solid rgba(233, 233, 233, 0.7);
-}
-
-.csa-board .col-sm-6:nth-child(even) {
-  border-right: none;
-}
-
-.csa-board .board-image img {
-  width: 50% !important;
-}
-
-.csa-calendar iframe {
-  width: 100%;
-}
-
-.csa-delay-1 {
-  -webkit-animation-delay: 0.25s;
-  -moz-animation-delay: 0.25s;
-  box-animation-delay: 0.25s;
-}
-
-.csa-delay-2 {
-  -webkit-animation-delay: 0.5s;
-  -moz-animation-delay: 0.5s;
-  box-animation-delay: 0.5s;
-}
-
-.csa-delay-3 {
-  -webkit-animation-delay: 0.75s;
-  -moz-animation-delay: 0.75s;
-  box-animation-delay: 0.75s;
-}
-
-.csa-delay-4 {
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  box-animation-delay: 1s;
-}
-
-.csa-nav {
-  border: none;
-  background-color: #4C81C5;
-  margin-bottom: 0;
-  border-radius: 0px;
-  font: 16px/1.5 "Manrope", sans-serif;
-  color: #FBFEF9;
-}
-
-.csa-main-col-1,
-.csa-main-col-2 {
-}
-
-.csa-main-col-1 {
-}
-
-.csa-main-col-2 {
-}
-
-.csa-main-updates {
-  background-color: rgba(233, 233, 233, 0.85);
-  height: 100%;
-  border: 1px solid transparent;
-  border-radius: 5px;
-  padding: 3px 5px;
-}
-
-.event-card {
-  transition: all 0.3s;
-}
-
-.event-card:hover {
-  transform: scale(1.03);
-}
-
-#event-cards {
-    display: flex;
-    flex-direction: column;
-    align-items: space-evenly;
-    min-height: 200px;
-}
-
-#event-container {
-  margin-bottom: 3vw;
-}
-
-.gray {
-  background-color: #d3d3d3;
-}
-
-.header-1 {
-  font-size: 18px;
-}
-
-.home-section {
-  background-color: #E6E8E6;
-  margin-top: 3vw;
-  /* margin-bottom: 3vw; */
-}
-
-#home-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 15px;
-}
-
-.logo {
-  height: 200px;
-}
-
-.logo img {
-  width: auto;
-  height: 100%;
-}
-
-.main-bg-img {
-  height: 30vw;
-  position: relative;
-  background: #FEF9EF;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-}
-
-#home-banner {
-  background-image: url('../img/geisel.png');
-  background-color: #ffffff;
-  background-position-y: 25%;
-  background-size: 100%;
-}
-
-#journals-banner {
-  background-image: url('../img/CSP_logo_50.png');
-  background-color: #ffffff;
-  background-position-y: 25%;
-  background-size: 100%;
-}
-
-#about-banner {
-  background-image: url('../img/2019 MLK Parade.png');
-  background-color: #ffffff;
-  background-size: cover;
-  background-position-y: 40%;
-}
-
-.main-col {
-  position: absolute;
-  bottom: 10px;
-  right: 0px;
-}
-
-.main-col-single {
-  color: white;
-  position: absolute;
-  top: 40%;
-  width: 100%;
-}
-
-.main-col-single h1 {
-  font-size: 46px;
-}
-
-/* Homepage image start (ordered by position) */
-.main-img-container {
-  position: relative;
-}
-
-.main-img-bg {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
-
-.board-image > img {
-  border-radius: 50%;
-  height: auto;
-  /* object-fit: scale-down; */
-}
-
-.main-title {
-  display: flex;
-  justify-content: center;
-}
-
-/* Navbar */
-.navbar-default {
-}
-.navbar-default .navbar-nav > li > a {
-  color: #FBFEF9;
-  padding-left: 12px;
-  padding-right: 12px;
-  border-bottom: 6px solid #4C81C5;
-  border-top: 6px solid #4C81C5;
-}
-
-.navbar-default .navbar-nav > li > .active {
-  border-bottom: 6px solid #335785;
-}
-
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  background-color:  #335785;
-  color: #FBFEF9;
-}
-
-.navbar-default .navbar-nav>li>a:focus {
-  color: #FBFEF9;
-}
-
-.navbar-default .navbar-nav > .active > a {
-  border-bottom: 6px solid #335785;
-  border-top: 6px solid #335785;
-}
-
-@media (min-width:768px) {
-  .navbar {
-    border-radius: 0px;
+/*Regular */
+  body, html {
+    font-size: 16px;
+    font-family: "Sora", sans-serif;
   }
-}
-
-#navbar-brand {
-  padding: 6px;
-  padding-top: 10px;
-  padding-left: 20px;
-}
-
-#navbar-brand > img {
-  border-radius: 48%;
-}
-
-.page-container {
-  min-height: 70vh;
-}
-
-.site-links > div > a {
-  color: #FBFEF9;
-}
-
-.social-media img {
-  width: 35px;
-  height: 35px;
-}
-
-.spotlight-tab-content {
-  padding: 10px;
-}
-
-.spotlight-tab-content p {
-  text-align: left;
-}
-
-.spotlight-desc {
-  padding: 30px 30px 5px 0px;
-}
-
-.spotlight-btn {
-  color: white;
-  background-color: #0b4a67;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.spotlight-btn:hover {
-  background-color: #0f6b96;
-}
-
-.spotlight-brief {
-  padding: 20px 10px 10px 0px;
-  font-size: 18px;
-}
-
-.csa-board .spotlight-scholar {
-  height: auto;
-  min-height: 200px;
-  border: 5px solid rgba(233, 233, 233, 0.7);
-  padding: 10px 5px;
-  overflow: auto;
-  width: 100%;
-}
-
-/* Go from zero to full opacity */
-@keyframes fadeEffect {
-  from {
-    opacity: 0;
+    a, a:active, a:focus {
+    outline: none;
+    font-family: 'Sora', sans-serif;
+    }
+  .csa-main-updates {
+    background-color: rgba(233, 233, 233, 0.85);
+    height: 100%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 3px 5px;
   }
 
-  to {
-    opacity: 1;
+  .gray {
+    background-color: #d3d3d3;
   }
-}
 
-.peer-mentoring {
-  margin: 1%;
-}
+  .header-1 {
+    font-size: 18px;
+  }
 
-.peer-mentoring-image img {
-  width: 100%;
-  border-radius: 50%;
-}
+  .logo {
+    height: 200px;
+  }
 
-.peer-mentoring-desc p {
-  margin: 15px;
-}
+  .logo img {
+    width: auto;
+    height: 100%;
+  }
 
-.group_photo {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10%;
-}
+  .main-col {
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+  }
 
-.event-col {
-  background-color: #e3e9ff;
-  padding: 10px;
-  border-bottom: 2px solid #ddd;
-  text-align: center;
-  /*height: 100px;*/
-  margin: 0px;
-}
+  .main-col-single {
+    color: white;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+  }
 
-.journal-intro {
-  font-size: 15px;
-  padding: 10px 0px;
-  margin-top: 50px;
-}
+  .main-col-single h1 {
+    font-size: 46px;
+  }
 
-.journal-header {
-  padding: 0px;
-  font-size: 14px;
-  margin: 0px;
-  margin-left: 40px;
-  margin-bottom: 50px;
-}
+  .page-container {
+    min-height: 70vh;
+  }
 
-.journal-header span {
-  position: relative;
-  left: -40px;
-}
+  .site-links > div > a {
+    color: #FBFEF9;
+  }
 
-.journal-entry:nth-of-type(1) {
-  padding-top: 10px;
-}
+  .social-media img {
+    width: 35px;
+    height: 35px;
+  }
 
-.journal-entry {
-  padding: 0px;
-  background-color: #fdfdfd;
-  font-size: 14px;
-}
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
 }
