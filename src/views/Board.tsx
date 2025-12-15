@@ -75,29 +75,46 @@ function Board() {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    
 
                     {/*Needs Kristilynn Headshot and Description*/}
-                    <div className="row">
+                    
                         {/* Vice President */}
                         <div className="col-sm-6 animated fadeInUp">
                             <div className="board-image">
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Aaron Delgado.jpg']}
+                                src={boardHeadshots['KristiLynn Effie.jpg']}
                                 loading="lazy"
                                 />
                             </div>
-                            <h4>Kristilynn Effie - Vice President</h4>
+                            <h4>KristiLynn Effie - Vice President</h4>
                             <div className="board-desc">
                                 <p>
-                                Hi, I'm Aaron. I am a second year computer 
-                                engineering major from marshall college. I am 
-                                very excited to be your webmaster co-chair for 
-                                2025-2026. I love trying out new coffee shops 
-                                and recipes. I have a hobby of trying out new 
-                                baking recipes to make for friends. 
+                                Hello! My name is KristiLynn, and I’m excited to serve as one of this year’s Vice Presidents for the CSA. I am a fourth-year student at UC San Diego, majoring in Visual Arts (Studio) with a minor in Art History. I’ve been an active member of CSA since 2022, and I’m grateful for the opportunity to continue supporting our campus and org this year.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Keene Cheung.jpeg']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Keene Cheung - Senior Advisor</h4>
+                            <div className="board-desc">
+                                <p>
+                                Hii!! I’m Hillary. I was born and raised in Sacramento, 
+                                CA. Im a huge pet lover and I have a white Pomeranian of 
+                                my own!  My hobbies are drawing, games, and experiencing 
+                                different restaurants with my friends 
+                                (I’m a huge foodie.) If I’m not doing classwork, I’m 
+                                making artwork or working in a lab!
                                 </p>
                             </div>
                         </div>
@@ -125,10 +142,29 @@ function Board() {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Berleen Grewal.png']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Berleen Grewal - Volunteer Chair</h4>
+                            <div className="board-desc">
+                                <p>
+                                I like to crochet, try new foods, and discover 
+                                new places! Excited to create initiatives 
+                                encouraging CSA students to contribute their 
+                                time to local efforts. 
+                                </p>
+                            </div>
+                        </div>
+                    
 
                     {/*Needs Aryanna's and Sirajam's stuff all of it */}
-                    <div className="row">
+                    
                         {/* Treasurer */}{/* <!-- needs updating -->*/}
                         <div className="col-sm-6 animated fadeInUp">
                             <div className="board-image">
@@ -157,7 +193,7 @@ function Board() {
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Aaron Delgado.jpg']}
+                                src={boardHeadshots['Sirajam Munira.jpg']}
                                 loading="lazy"
                                 />
                             </div>
@@ -171,56 +207,16 @@ function Board() {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                   
 
                     {/*Needs All of Layth's stuff */}
-                    <div className="row">
+                    
                         {/* Volunteer Chair */}
-                        <div className="col-sm-6 animated fadeInUp">
-                            <div className="board-image">
-                                <img
-                                alt="board picture"
-                                className="lazy"
-                                src={boardHeadshots['Berleen Grewal.png']}
-                                loading="lazy"
-                                />
-                            </div>
-                            <h4>Berleen Grewal - Volunteer Chair</h4>
-                            <div className="board-desc">
-                                <p>
-                                I like to crochet, try new foods, and discover 
-                                new places! Excited to create initiatives 
-                                encouraging CSA students to contribute their 
-                                time to local efforts. 
-                                </p>
-                            </div>
-                        </div>
-                        {/* Volunteer Chair */} {/*Needs updating */}
-                        <div className="col-sm-6 animated fadeInUp">
-                            <div className="board-image">
-                                <img
-                                alt="board picture"
-                                className="lazy"
-                                src={boardHeadshots['Aaron Delgado.jpg']}
-                                loading="lazy"
-                                />
-                            </div>
-                            <h4>Layth Polus - Volunteer Chair</h4>
-                            <div className="board-desc">
-                                <p>
-                                Hi, I'm Aaron. I am a second year computer 
-                                engineering major from marshall college. I am 
-                                very excited to be your webmaster co-chair for 
-                                2025-2026. I love trying out new coffee shops 
-                                and recipes. I have a hobby of trying out new 
-                                baking recipes to make for friends. 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                        
+                    
 
                     {/*Done*/}
-                    <div className="row">
+                    
                         {/* Peer Mentor Chair */}{/* Needs Phuong Nguyen headshots */}
                         <div className="col-sm-6 animated fadeInUp">
                             <div className="board-image">
@@ -266,10 +262,10 @@ function Board() {
                         </div>
 
                         
-                    </div>
+                    
 
                     {/*Done*/}
-                    <div className="row">
+                   
                         {/* Fundraising Chair */}
                         <div className="col-sm-6 animated fadeInUp">
                             <div className="board-image">
@@ -312,10 +308,10 @@ function Board() {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    
                     
                     {/*Done*/}
-                    <div className = "row">
+                   
                         {/* Social Chair */} 
                         <div className="col-sm-6 animated fadeInUp">
                             <div className="board-image">
@@ -358,29 +354,24 @@ function Board() {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    
 
                     {/*Needs Kaitlyn everything */}
-                    <div className="row">
+                    
                         {/* Social Chair */}
                         <div className="col-sm-6 animated fadeInUp">
                             <div className="board-image">
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Aaron Delgado.jpg']}
+                                src={boardHeadshots['Kaitlyn Tan.jpg']}
                                 loading="lazy"
                                 />
                             </div>
-                            <h4>Kaitlyn - Social Chair</h4>
+                            <h4>Kaitlyn Tan - Social Chair</h4>
                             <div className="board-desc">
                                 <p>
-                                Hi, I'm Aaron. I am a second year computer 
-                                engineering major from marshall college. I am 
-                                very excited to be your webmaster co-chair for 
-                                2025-2026. I love trying out new coffee shops 
-                                and recipes. I have a hobby of trying out new 
-                                baking recipes to make for friends. 
+                                hello! i am a third year marshall student planning to go into the health field. in my downtime, i enjoy romcoms and games. i am also a HUGE foodie and love making new friends over matcha :) 
                                 </p>
                             </div>
                         </div>
@@ -409,10 +400,10 @@ function Board() {
                                     </p>
                                 </div>
                             </div>
-                    </div>
+                    
 
                     {/*Needs Maria's everything */}
-                    <div className="row">
+                    
                         {/* Publicity Chair */} {/*Needs headshot updating*/}
                         <div className="col-sm-6 animated fadeInUp">
                             <div className="board-image">
@@ -457,10 +448,10 @@ function Board() {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    
 
                     {/*Done*/}
-                    <div className="row">
+                   
                         {/* Webmaster */} {/*Needs updating*/}
                         <div className="col-sm-6 animated fadeInUp">
                             <div className="board-image">
@@ -503,10 +494,10 @@ function Board() {
                                 </p>
                             </div>
                         </div> 
-                    </div>
+                   
 
                     {/*Done*/}
-                    <div className="row">
+                    
                         {/* Director-At-Large */}
                         <div className="col-sm-6 animated fadeInUp">
                             <div className="board-image">
@@ -555,29 +546,24 @@ function Board() {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                   
 
                     {/*Needs Sharons Description and Ashley's Everything*/}
-                    <div className="row">
+                    
                         {/* Freshman Ambassador */}
                         <div className="col-sm-6 animated fadeInUp">
                             <div className="board-image">
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Aaron Delgado.jpg']}
+                                src={boardHeadshots['Ashley Nguyen.jpeg']}
                                 loading="lazy"
                                 />
                             </div>
                             <h4>Ashley Nguyen - Freshman Ambassador</h4>
                             <div className="board-desc">
                                 <p>
-                                Hi, I'm Aaron. I am a second year computer 
-                                engineering major from marshall college. I am 
-                                very excited to be your webmaster co-chair for 
-                                2025-2026. I love trying out new coffee shops 
-                                and recipes. I have a hobby of trying out new 
-                                baking recipes to make for friends. 
+                                Hiiii, I am Ashley! A little about myself, I love going out to the mall (I am a shopaholic! ) and trying new food. I also love the colour pink and anything associated with it. 
                                 </p>
                             </div>
                         </div>
@@ -604,6 +590,7 @@ function Board() {
                             </div>
                         </div>
                     </div>
+                    
 
                     
 
@@ -690,9 +677,9 @@ function Board() {
                         </div>
                     </div>
                     */}
-                    </div>
+                    
             </div>
-          
+          </div>
         
         
     );

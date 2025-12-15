@@ -37,7 +37,7 @@ function Footer() {
                                     </a>
                                 </div>
                                 <div className="col-sm-3">
-                                <a href="https://www.Icon.com/organization-guest/school/uc-san-diego-chancellor-s-scholars-program/" target="_blank" title="Icon"><img
+                                <a href="https://www.linkedin.com/school/uc-san-diego-chancellor-s-scholars-program/" target="_blank" title="Icon"><img
                                     alt="linkedin" src={linkedInIcon} style={{borderRadius: '25%'}}/>
                                 </a>
                                 </div>
