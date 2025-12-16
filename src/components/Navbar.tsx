@@ -30,7 +30,7 @@ function Navbar() {
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/events">Events</NavLink></li>
                 <li><NavLink to="/about">About</NavLink></li>
-                <li><NavLink to="/journals">CS Journals</NavLink></li>
+                {/*<li><NavLink to="/journals">CS Journals</NavLink></li>*/}
                 <li><NavLink to="/meet-the-board">Meet the Board</NavLink></li>
                 <li><NavLink to="/peer-mentoring"> Peer Mentoring </NavLink></li>
                 <li><NavLink to="/spotlight"> Spotlight </NavLink></li>
