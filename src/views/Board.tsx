@@ -142,51 +142,10 @@ function Board() {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-sm-6 animated fadeInUp">
-                            <div className="board-image">
-                                <img
-                                alt="board picture"
-                                className="lazy"
-                                src={boardHeadshots['Berleen Grewal.png']}
-                                loading="lazy"
-                                />
-                            </div>
-                            <h4>Berleen Grewal - Volunteer Chair</h4>
-                            <div className="board-desc">
-                                <p>
-                                I like to crochet, try new foods, and discover 
-                                new places! Excited to create initiatives 
-                                encouraging CSA students to contribute their 
-                                time to local efforts. 
-                                </p>
-                            </div>
-                        </div>
+                        
                     
 
-                    {/*Needs Aryanna's and Sirajam's stuff all of it */}
-                    
-                        {/* Treasurer */}{/* <!-- needs updating -->*/}
-                        <div className="col-sm-6 animated fadeInUp">
-                            <div className="board-image">
-                                <img
-                                alt="board picture"
-                                className="lazy"
-                                src={boardHeadshots['Aaron Delgado.jpg']}
-                                loading="lazy"
-                                />
-                            </div>
-                            <h4>Aryanna Ileto - Treasurer</h4>
-                            <div className="board-desc">
-                                <p>
-                               Hi, I'm Aaron. I am a second year computer 
-                                engineering major from marshall college. I am 
-                                very excited to be your webmaster co-chair for 
-                                2025-2026. I love trying out new coffee shops 
-                                and recipes. I have a hobby of trying out new 
-                                baking recipes to make for friends. 
-                                </p>
-                            </div>
-                        </div>
+                   
                         {/* Treasurer */}{/*<!-- needs updating -->*/}
                         <div className="col-sm-6 animated fadeInUp">
                             <div className="board-image">
@@ -311,6 +270,25 @@ function Board() {
                     
                     
                     {/*Done*/}
+                    <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Berleen Grewal.png']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Berleen Grewal - Volunteer Chair</h4>
+                            <div className="board-desc">
+                                <p>
+                                I like to crochet, try new foods, and discover 
+                                new places! Excited to create initiatives 
+                                encouraging CSA students to contribute their 
+                                time to local efforts. 
+                                </p>
+                            </div>
+                        </div>
                    
                         {/* Social Chair */} 
                         <div className="col-sm-6 animated fadeInUp">
@@ -402,7 +380,6 @@ function Board() {
                             </div>
                     
 
-                    {/*Needs Maria's everything */}
                     
                         {/* Publicity Chair */} {/*Needs headshot updating*/}
                         <div className="col-sm-6 animated fadeInUp">
@@ -426,29 +403,7 @@ function Board() {
                                 </p>
                             </div>
                         </div>
-                        {/* Publicity Chair */} {/*Needs headshot updating*/}
-                        <div className="col-sm-6 animated fadeInUp">
-                            <div className="board-image">
-                                <img
-                                alt="board picture"
-                                className="lazy"
-                                src={boardHeadshots['Aaron Delgado.jpg']}
-                                loading="lazy"
-                                />
-                            </div>
-                            <h4>Maria Habashy - Publicity Chair</h4>
-                            <div className="board-desc">
-                                <p>
-                                Hi, I'm Aaron. I am a second year computer 
-                                engineering major from marshall college. I am 
-                                very excited to be your webmaster co-chair for 
-                                2025-2026. I love trying out new coffee shops 
-                                and recipes. I have a hobby of trying out new 
-                                baking recipes to make for friends. 
-                                </p>
-                            </div>
-                        </div>
-                    
+                        
 
                     {/*Done*/}
                    
