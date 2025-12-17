@@ -77,7 +77,7 @@ function Board() {
                         </div>
                     
 
-                    {/*Needs Kristilynn Headshot and Description*/}
+                    
                     
                         {/* Vice President */}
                         <div className="col-sm-6 animated fadeInUp">
@@ -97,27 +97,7 @@ function Board() {
                             </div>
                         </div>
 
-                        <div className="col-sm-6 animated fadeInUp">
-                            <div className="board-image">
-                                <img
-                                alt="board picture"
-                                className="lazy"
-                                src={boardHeadshots['Keene Cheung.jpeg']}
-                                loading="lazy"
-                                />
-                            </div>
-                            <h4>Keene Cheung - Senior Advisor</h4>
-                            <div className="board-desc">
-                                <p>
-                                Hii!! I’m Hillary. I was born and raised in Sacramento, 
-                                CA. Im a huge pet lover and I have a white Pomeranian of 
-                                my own!  My hobbies are drawing, games, and experiencing 
-                                different restaurants with my friends 
-                                (I’m a huge foodie.) If I’m not doing classwork, I’m 
-                                making artwork or working in a lab!
-                                </p>
-                            </div>
-                        </div>
+                      
                         {/* Secretary */}
                         <div className="col-sm-6 animated fadeInUp ">
                             <div className="board-image">
@@ -163,6 +143,25 @@ function Board() {
                                 student, majoring in International Studies - International
                                 Business. Fun fact about me: I love to play tennis and am a
                                 perfectionist :)
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-sm-6 animated fadeInUp">
+                            <div className="board-image">
+                                <img
+                                alt="board picture"
+                                className="lazy"
+                                src={boardHeadshots['Berleen Grewal.png']}
+                                loading="lazy"
+                                />
+                            </div>
+                            <h4>Berleen Grewal - Volunteer Chair</h4>
+                            <div className="board-desc">
+                                <p>
+                                I like to crochet, try new foods, and discover 
+                                new places! Excited to create initiatives 
+                                encouraging CSA students to contribute their 
+                                time to local efforts. 
                                 </p>
                             </div>
                         </div>
@@ -270,25 +269,7 @@ function Board() {
                     
                     
                     {/*Done*/}
-                    <div className="col-sm-6 animated fadeInUp">
-                            <div className="board-image">
-                                <img
-                                alt="board picture"
-                                className="lazy"
-                                src={boardHeadshots['Berleen Grewal.png']}
-                                loading="lazy"
-                                />
-                            </div>
-                            <h4>Berleen Grewal - Volunteer Chair</h4>
-                            <div className="board-desc">
-                                <p>
-                                I like to crochet, try new foods, and discover 
-                                new places! Excited to create initiatives 
-                                encouraging CSA students to contribute their 
-                                time to local efforts. 
-                                </p>
-                            </div>
-                        </div>
+                        
                    
                         {/* Social Chair */} 
                         <div className="col-sm-6 animated fadeInUp">
@@ -353,6 +334,7 @@ function Board() {
                                 </p>
                             </div>
                         </div>
+
                         {/* Publicity Chair */}
                         <div className="col-sm-6 animated fadeInUp">
                             <div className="board-image">
@@ -379,7 +361,7 @@ function Board() {
                                 </div>
                             </div>
                     
-
+                        </div>
                     
                         {/* Publicity Chair */} {/*Needs headshot updating*/}
                         <div className="col-sm-6 animated fadeInUp">
@@ -634,7 +616,7 @@ function Board() {
                     */}
                     
             </div>
-          </div>
+          
         
         
     );
