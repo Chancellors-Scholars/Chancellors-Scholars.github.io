@@ -28,10 +28,10 @@ function Contact() {
                     <p>
                         Chancellor's Scholars Alliance President 
                     </p>
-                    <a href="mailto:k7cheung@ucsd.edu"><p>Keene Cheung</p></a>
+                    <a href="mailto:k7cheung@ucsd.edu"><p>Grace Carter</p></a>
                     <p>Webmasters</p>
-                    <a href="mailto:cag013@ucsd.edu"><p>Carlos Gomez</p></a>
-                    <a href="mailto:fdang@ucsd.edu"><p>Foster Dang</p></a>
+                    <a href="mailto:aad010@ucsd.edu"><p>Aaron Delgado</p></a>
+                    <a href="mailto:til095@ucsd.edu"><p>Tiger Liang</p></a>
                 </div>
                 <div className="col-sm-6 col-2">
                     <h4>Social Media</h4>
