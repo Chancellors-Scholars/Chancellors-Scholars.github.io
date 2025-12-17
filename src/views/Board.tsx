@@ -323,7 +323,7 @@ function Board() {
                                 <img
                                 alt="board picture"
                                 className="lazy"
-                                src={boardHeadshots['Kaitlyn Tan.jpg']}
+                                src={boardHeadshots['Kaitlyn Tan.JPG']}
                                 loading="lazy"
                                 />
                             </div>
