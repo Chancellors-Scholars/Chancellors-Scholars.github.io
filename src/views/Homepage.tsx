@@ -38,7 +38,19 @@ function Homepage() {
 
   return (
     <div>
-      {/* background graphic */}
+      <div id = "home-banner">
+        <h1 style={{
+          
+          textShadow: "3px 3px 7px #25291C, -3px -3px 7px #25291C, -3px 3px 7px #25291C, 3px -3px 7px #25291C",
+          color: "#fff", // optional: helps make it pop
+          }} id="homepage-title">Chancellor's Scholars Alliance at UC San Diego</h1>
+        <div id="contact-button">
+          <NavLink to="/contact">Contact Us!</NavLink>
+        </div>
+      </div>
+    </div>
+    /*<div>
+      {/* background graphic }
       <div className="container-fluid main-bg-img" id="home-banner" >
         <div
           className="row lazy container-fluid"
@@ -57,11 +69,11 @@ function Homepage() {
       </div>
       <div className="bar-divider gray"></div>
 
-      {/* Container spanning full width for about bg*/}
+      {/* Container spanning full width for about bg}
       <div className="container-fluid home-section">
-        {/* Container fit to middle width */}
+        {/* Container fit to middle width }
         <div className="container" id="about-card">
-            {/* Text column */}
+            {/* Text column }
             <div className="text-center" id="about-us-blurb">
                 <h2>About Us</h2>
                 <p>
@@ -76,7 +88,7 @@ function Homepage() {
                 <NavLink to="/about"> More about us...</NavLink>
             </div>
 
-            {/* Collage column */}
+            {/* Collage column }
             <div id="collage">  
                 <div className="row">
                     <div className="col-sm-6 collage-item text-center">
@@ -108,14 +120,14 @@ function Homepage() {
         </div>
       </div>
 
-      {/* Container spanning full width for about bg*/}
+      {/* Container spanning full width for about bg}
       <div className="container-fluid home-section" id="event-container">
-        {/* Container fit to middle width */}
+        {/* Container fit to middle width }
         <div className="container text-center" id="event-cards">
           <h1> Events </h1>
-          {/* Generates event cards from the pulled list of events and displays a message if there aren't any events */}
+          {/* Generates event cards from the pulled list of events and displays a message if there aren't any events }
           <div style={{display: 'flex', justifyContent: 'center'}}>
-            {/* Nested condition where it has two states for when the events have been fetched, and if not then display a loading message */}
+            {/* Nested condition where it has two states for when the events have been fetched, and if not then display a loading message }
             {isLoaded ? 
             (events.length > 0 ? (<EventsGrid events={events} />) : (<p style={{ padding: '40px' }}>No events coming up...</p>)) 
             : (<p style={{ padding: '40px' }}>Loading events...</p>
@@ -124,6 +136,9 @@ function Homepage() {
         </div>
       </div> 
     </div>
+    */
+
+
   );
 }
 

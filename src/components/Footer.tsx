@@ -5,7 +5,7 @@ import instagramIcon from '../img/instagram_logo.png';
 import CSALogo from "../img/csa-logo.jpg";
 function Footer() {
     return (
-        <>
+        /*<>
             <div className="bar-divider gray"></div>
             <footer>
                 <div className="container">
@@ -50,6 +50,7 @@ function Footer() {
                 </div>
             </footer>
         </>
+        */<div></div>
     );
 }
 
