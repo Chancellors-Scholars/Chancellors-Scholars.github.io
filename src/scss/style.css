@@ -302,67 +302,126 @@ small {
   text-align: center;
 }
 
-#bootstrap-overrides #about-banner {
+#about-banner {
   background-image: url("../img/2019 MLK Parade.png");
   background-color: #ffffff;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem 5% 0 5%;
+  background-position-y: 25%;
   background-size: cover;
-  background-position-y: 40%;
+  color: black;
 }
 
-#bootstrap-overrides {
-  /*
-  .csa-board > .col-sm-3 {
-    border-left: 5px solid rgba(233, 233, 233, 0.7);
-    border-top: 5px solid rgba(233, 233, 233, 0.7);
-    padding: 20px;
-    height: 500px;
-  }
-
-  .csa-board .col-sm-3:nth-child(4n + 0) {
-    border-right: 5px solid rgba(233, 233, 233, 0.7);
-  }
-
-  .csa-board .col-sm-3:nth-last-child(-n + 4) {
-    border-bottom: 5px solid rgba(233, 233, 233, 0.7);
-  }
-
-  .csa-board .col-sm-6:nth-child(even) {
-    border-right: none;
-  }
-  */
+#csa-board {
+  color: black;
 }
-#bootstrap-overrides .csa-board .col-sm-6 {
-  border: 1px solid rgba(233, 233, 233, 0.7);
-  padding: 10px;
-  min-height: 600px;
+
+#csa-title {
+  text-align: center;
+  margin: 1em 0 1em 0;
 }
-#bootstrap-overrides .csa-board .board-image img {
+
+#csa-people {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.csa-card {
+  border: 5px solid rgba(233, 233, 233, 0.7);
+  padding: 20px;
+  width: 375px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media (width < 40em) {
+  .csa-card {
+    width: 100%;
+  }
+}
+
+.csa-headshot {
   width: 50% !important;
+  border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
   aspect-ratio: 1/1;
 }
-#bootstrap-overrides .csa-delay-1 {
+
+.card-title {
+  text-align: center;
+}
+
+.card-desc {
+  text-align: center;
+}
+
+/*
+    .csa-board .col-sm-6 {
+  border: 1px solid rgba(233, 233, 233, 0.7);
+  padding: 10px;
+  min-height: 600px;
+}
+/*
+.csa-board > .col-sm-3 {
+  border-left: 5px solid rgba(233, 233, 233, 0.7);
+  border-top: 5px solid rgba(233, 233, 233, 0.7);
+  padding: 20px;
+  height: 500px;
+}
+
+.csa-board .col-sm-3:nth-child(4n + 0) {
+  border-right: 5px solid rgba(233, 233, 233, 0.7);
+}
+
+.csa-board .col-sm-3:nth-last-child(-n + 4) {
+  border-bottom: 5px solid rgba(233, 233, 233, 0.7);
+}
+
+.csa-board .col-sm-6:nth-child(even) {
+  border-right: none;
+}
+
+ .board-image > img {
+  width: 50% !important;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+.csa-delay-1 {
   -webkit-animation-delay: 0.25s;
   -moz-animation-delay: 0.25s;
   box-animation-delay: 0.25s;
 }
-#bootstrap-overrides .csa-delay-2 {
+
+.csa-delay-2 {
   -webkit-animation-delay: 0.5s;
   -moz-animation-delay: 0.5s;
   box-animation-delay: 0.5s;
 }
-#bootstrap-overrides .csa-delay-3 {
+
+.csa-delay-3 {
   -webkit-animation-delay: 0.75s;
   -moz-animation-delay: 0.75s;
   box-animation-delay: 0.75s;
 }
-#bootstrap-overrides .csa-delay-4 {
+
+.csa-delay-4 {
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   box-animation-delay: 1s;
 }
-
+*/
 #bootstrap-overrides .contact-main .col-sm-6 {
   height: 400px;
 }
@@ -404,22 +463,30 @@ small {
   background-size: 100%;
 }
 
-#bootstrap-overrides .csa-calendar iframe {
+.text-center {
+  color: #444;
+  text-align: center;
+}
+
+.csa-calendar iframe {
   width: 100%;
 }
-#bootstrap-overrides .calendar {
+
+.calendar {
   text-align: center;
   font-family: sans-serif;
   padding: 20px;
 }
-#bootstrap-overrides .calendar-header {
+
+.calendar-header {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
   margin-bottom: 10px;
 }
-#bootstrap-overrides .calendar-header button {
+
+.calendar-header button {
   background: #007bff;
   color: white;
   border: none;
@@ -429,24 +496,29 @@ small {
   font-size: 16px;
   cursor: pointer;
 }
-#bootstrap-overrides .calendar-header button:hover {
+
+.calendar-header button:hover {
   background: #0056b3;
 }
-#bootstrap-overrides .weekdays {
+
+.weekdays {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   font-weight: bold;
   margin-bottom: 8px;
 }
-#bootstrap-overrides .weekday {
+
+.weekday {
   padding: 4px 0;
 }
-#bootstrap-overrides .calendar-grid {
+
+.calendar-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 8px;
 }
-#bootstrap-overrides .day-cell {
+
+.day-cell {
   border: 1px solid #ccc;
   min-height: 120px;
   border-radius: 8px;
@@ -454,31 +526,37 @@ small {
   background: #f8f8f8;
   position: relative;
 }
-#bootstrap-overrides .day-cell.empty {
+
+.day-cell.empty {
   background: transparent;
   border: none;
 }
-#bootstrap-overrides .date-number {
+
+.date-number {
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 4px;
 }
-#bootstrap-overrides .event-container {
+
+.event-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 4px;
 }
-#bootstrap-overrides .event-image {
+
+.event-image {
   width: 100%;
   border-radius: 6px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-#bootstrap-overrides #event-container {
+
+#event-container {
   margin-bottom: 3vw;
 }
-#bootstrap-overrides .event-col {
+
+.event-col {
   background-color: #e3e9ff;
   padding: 10px;
   border-bottom: 2px solid #ddd;
@@ -487,30 +565,36 @@ small {
   margin: 0px;
 }
 
-#bootstrap-overrides .spotlight-tab-content {
+.spotlight-tab-content {
   padding: 10px;
 }
-#bootstrap-overrides .spotlight-tab-content p {
+
+.spotlight-tab-content p {
   text-align: left;
 }
-#bootstrap-overrides .spotlight-desc {
+
+.spotlight-desc {
   padding: 30px 30px 5px 0px;
 }
-#bootstrap-overrides .spotlight-btn {
+
+.spotlight-btn {
   color: white;
   background-color: #0b4a67;
   border: none;
   padding: 10px;
   border-radius: 5px;
 }
-#bootstrap-overrides .spotlight-btn:hover {
+
+.spotlight-btn:hover {
   background-color: #0f6b96;
 }
-#bootstrap-overrides .spotlight-brief {
+
+.spotlight-brief {
   padding: 20px 10px 10px 0px;
   font-size: 18px;
 }
-#bootstrap-overrides .csa-board .spotlight-scholar {
+
+.csa-board .spotlight-scholar {
   height: auto;
   min-height: 200px;
   border: 5px solid rgba(233, 233, 233, 0.7);

@@ -1,4 +1,51 @@
-#bootstrap-overrides {
+#csa-board{
+  color:black;
+}
+#csa-title{
+  text-align: center;
+   margin: 1em 0 1em 0;
+}
+
+#csa-people{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+}
+.csa-card{
+  border: 5px solid rgba(233, 233, 233, 0.7);
+  padding: 20px;
+  width: 375px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  @media (width < 40em){
+    width: 100%;
+  }
+}
+.csa-headshot {
+  width: 50% !important;
+  border-radius: 50%;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+.card-title{
+  text-align: center;
+ 
+}
+.card-desc{
+  text-align: center;
+}
+
+
+/*
     .csa-board .col-sm-6 {
   border: 1px solid rgba(233, 233, 233, 0.7);
   padding: 10px;
@@ -23,8 +70,8 @@
 .csa-board .col-sm-6:nth-child(even) {
   border-right: none;
 }
-*/
-.csa-board .board-image img {
+
+ .board-image > img {
   width: 50% !important;
   object-fit: cover;
   aspect-ratio: 1 / 1;
@@ -52,4 +99,4 @@
   -moz-animation-delay: 1s;
   box-animation-delay: 1s;
 }
-}
+*/
