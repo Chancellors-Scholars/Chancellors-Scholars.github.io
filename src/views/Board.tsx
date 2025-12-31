@@ -352,6 +352,7 @@ function Board() {
                     </p>
                 </div>
             </div>
+            
         </div>
         /*                    
                     {/*No longer Needed
