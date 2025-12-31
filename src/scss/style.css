@@ -422,14 +422,13 @@ small {
   box-animation-delay: 1s;
 }
 */
-#bootstrap-overrides .contact-main .col-sm-6 {
-  height: 400px;
+#contact {
+  color: black;
+  padding: 1em;
 }
-#bootstrap-overrides .contact-main .col-1 {
-  border-right: 1px solid rgba(233, 233, 233, 0.7);
-}
-#bootstrap-overrides .copyright {
-  padding-top: 10px;
+
+.emails {
+  color: black;
 }
 
 #bootstrap-overrides .journal-intro {
@@ -565,16 +564,72 @@ small {
   margin: 0px;
 }
 
+#spotlight {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#spotlight-title {
+  margin-top: 1em;
+  text-align: center;
+}
+
+#spotlight-desc {
+  text-align: center;
+}
+
+.spotlight-desc {
+  width: 25vw;
+}
+@media (width < 40em) {
+  .spotlight-desc {
+    width: 80vw !important;
+  }
+}
+
+.spotlight-scholar {
+  border: 5px solid rgba(233, 233, 233, 0.7);
+  padding: 10px 5px;
+  height: auto;
+  width: 90vw;
+}
+
+.spotlight-main {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: space-evenly;
+}
+@media (width < 40em) {
+  .spotlight-main {
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+  }
+}
+
+.spotlight-headshot {
+  width: 25vw !important;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 1/1;
+}
+@media (width < 40em) {
+  .spotlight-headshot {
+    width: 60vw !important;
+  }
+}
+
 .spotlight-tab-content {
   padding: 10px;
 }
 
 .spotlight-tab-content p {
   text-align: left;
-}
-
-.spotlight-desc {
-  padding: 30px 30px 5px 0px;
 }
 
 .spotlight-btn {
@@ -590,30 +645,30 @@ small {
 }
 
 .spotlight-brief {
-  padding: 20px 10px 10px 0px;
   font-size: 18px;
+  width: 25vw;
+  text-align: center;
+}
+@media (width < 40em) {
+  .spotlight-brief {
+    width: 80vw !important;
+  }
 }
 
-.csa-board .spotlight-scholar {
-  height: auto;
-  min-height: 200px;
-  border: 5px solid rgba(233, 233, 233, 0.7);
-  padding: 10px 5px;
-  overflow: auto;
-  width: 100%;
-}
-
-#bootstrap-overrides .peer-mentoring {
+.peer-mentoring {
   margin: 1%;
 }
-#bootstrap-overrides .peer-mentoring-image img {
+
+.peer-mentoring-image img {
   width: 100%;
   border-radius: 50%;
 }
-#bootstrap-overrides .peer-mentoring-desc p {
+
+.peer-mentoring-desc p {
   margin: 15px;
 }
-#bootstrap-overrides .group_photo {
+
+.group_photo {
   display: block;
   max-width: 100%;
   height: auto;
