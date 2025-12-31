@@ -12,7 +12,7 @@ function About() {
           data-original="resources/2019 MLK Parade.jpg"
           
         >
-          <div className="text-center main-col-single">
+          
             <h1 className="animated fadeIn" 
               style={{
                   textShadow: "3px 3px 7px #25291C, -3px -3px 7px #25291C, -3px 3px 7px #25291C, 3px -3px 7px #25291C",
@@ -20,11 +20,11 @@ function About() {
               }}>
                   About Us
             </h1>
-          </div>
+          
         </div>
       </div>
       {/* second row, main content about us */}
-      <div className="container" style={{ padding: "25px" }}>
+      <div className="container" style={{ padding: "25px", color: "black"}}>
         <div className="row">
           <h2>
             <center>Our Mission Statement</center>

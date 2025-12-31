@@ -3,6 +3,56 @@ import instagramIcon from '../img/instagram_logo.png';
 
 function Contact() {
     return(
+        <div id="contact">
+            <div id="contact-head">
+                <h2>Contact us</h2>
+                <p>
+                    Have questions? Want to get in touch with us?
+                </p>
+            </div>
+            <div id="contact-main">
+                <h4>Emails</h4>
+                    <p><b>
+                        Chancellor's Scholars Program
+                        </b>
+                    </p>
+                    <a className="emails" href="mailto:ChancellorsScholars@gmail.com"><p>ChancellorsScholars@ucsd.edu</p></a>
+                    <p><b>
+                        Chancellor's Scholars Alliance Student Board
+                        </b>
+                    </p>
+                    <a className="emails" href="mailto:cscholarsall@ucsd.edu"><p>cscholarsall@ucsd.edu</p></a>
+                    <p>
+                        <b>
+                        Emeriti Mentor Program
+                        </b>
+                    </p>
+                    <a className="emails" href="mailto:EmeritiMentor@gmail.com"><p>EmeritiMentor@ucsd.edu</p></a> 
+                    <p><b>
+                        Chancellor's Scholars Alliance President 
+                        </b>
+                    </p>
+                    <a className="emails" href=""><p>Grace Crater</p></a>
+                    <p><b>Webmasters</b></p>
+                    <a className="emails" href="mailto:aad010@ucsd.edu"><p>Aaron Delgado</p></a>
+                    <a className="emails" href=""><p>Tiger</p></a>
+            </div>
+            <div id="follow">
+                    <h4 id="follow-title" style={{color:'#25291C'}}>Follow us!</h4>
+                    <div className="social-media">
+                        <a className="follow-links" href="https://www.instagram.com/csascholarsatucsd?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPNTY3MDY3MzQzMzUyNDI3AAGndYGb9ynyvPPn73C5v-FpxeUXmhCMD6-SOovjBQhn-_3bUsTK52axSekogSc_aem_jBTIZWY6TmQZgH3pdp95Ew" target="_blank" title="Instagram">
+                            <img
+                            alt="instagram" src={instagramIcon} />
+                        </a>
+                        <a className = "follow-links" href="https://www.linkedin.com/school/uc-san-diego-chancellor-s-scholars-program/" target="_blank" title="Icon">
+                            <img
+                            alt="linkedin" src={linkedInIcon} />
+                        </a>
+                       
+                    </div>
+            </div>
+        </div>
+        /*
         <div className="container contact-main">
             <div className="row">
                 <hr />
@@ -43,12 +93,13 @@ function Contact() {
                             <a href="https://www.linkedin.com/school/uc-san-diego-chancellor-s-scholars-program/" target="_blank" title="LinkedIn"><img alt="linkedin" src={linkedInIcon} /></a>
                         </div>
                         <div className="col-sm-8">
-                            {/* placeholder for alignment, replace with actual links when those accounts are set up */}
+                            {/* placeholder for alignment, replace with actual links when those accounts are set up }
                         </div>
                     </div>
             </div>
         </div>
       </div>
+      */
     );
 }
 

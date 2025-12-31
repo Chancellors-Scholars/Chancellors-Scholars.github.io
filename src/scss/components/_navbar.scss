@@ -1,4 +1,4 @@
-#bootstrap-overrides{
+/*#bootstrap-overrides{
     
   .navbar{
 
@@ -81,4 +81,120 @@
     border-radius: 48%;
   }
   
+}
+*/
+
+
+/* ---------------- Navbar and burger menu ------------------ */
+nav {
+    width: 100%;
+    height: 5em;
+    background-color: #4C81C5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+#navbar-brand > img {
+    border-radius: 48%;
+    background: none;
+}
+.links-desktop {
+    @media (width > 50em) {
+        display:block;
+    }
+    display: none;
+    
+}
+#mobile-menu-links{
+    @media(width > 50em) {
+        display:none;
+    }
+    margin:0;
+    padding:1em 0 1em 0 ;
+}
+.topnav__links{
+
+  @media (width > 50em) {
+        display:flex;
+        gap: 2em;
+        flex-direction: row;
+  }
+  
+  display:flex;
+  gap: 2em;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+}
+.topnav__link{
+    list-style-type: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.burger-menu {
+    @media (width > 50em) {
+        display: none;
+    }
+    height: 100%;
+    width: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    cursor: pointer;
+    background: none;
+    border:none;
+}
+
+.burger-bar {
+    width: 4em;
+    height: 0.5em;
+    background-color: white;
+    border-radius: 0.5em;
+}
+
+.menu {
+    @media (width > 50em) {
+        display: none;
+    }
+    
+    width: 100%;
+    height: auto;
+    background-color: #7496c4;
+    position: inherit;
+   
+}
+
+/* ------------- sliding menu ------------------ */
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+/* ----- animations--------- */
+/* clicked */
+.burger-bar.clicked:nth-child(1){
+    transform: rotate(45deg) translate(1.1em, 1.25em);
+    transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(2){
+    transform: scale(0.1);
+    transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(3){
+    transform: rotate(135deg) translate(-0.75em, 1em);
+    transition: ease-out 0.5s;
+}
+
+/* unclicked */
+.burger-bar.unclicked {
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
 }

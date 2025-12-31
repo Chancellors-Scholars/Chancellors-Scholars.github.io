@@ -1,15 +1,16 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
+/*import './index.css'*/
 import App from './App.tsx'
 
 // CSS Imports
-import '../src/css/animate.min.css'
+/*import '../src/css/animate.min.css'
 import '../src/css/bootstrap.min.css'
 import '../src/css/jquery-ui.min.css'
 import '../src/css/jquery-ui.structure.min.css'
 import '../src/css/jquery-ui.theme.min.css'
 import '../src/css/site-specific.css'
+*/
 
 // Routing objects
 import {
