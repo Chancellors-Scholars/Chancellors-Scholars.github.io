@@ -439,8 +439,9 @@ function Board() {
                     </div>
                     }
             </div>
-          </div>
-        */
+          
+        */}
+        
     );
 }
 
