@@ -440,7 +440,7 @@ function Board() {
                     }
             </div>
           
-        */}
+        */
         
     );
 }
