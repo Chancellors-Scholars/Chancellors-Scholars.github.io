@@ -32,7 +32,7 @@ function Contact() {
                         Chancellor's Scholars Alliance President 
                         </b>
                     </p>
-                    <a className="emails" href=""><p>Grace Crater</p></a>
+                    <a className="emails" href=""><p>Grace Carter</p></a>
                     <p><b>Webmasters</b></p>
                     <a className="emails" href="mailto:aad010@ucsd.edu"><p>Aaron Delgado</p></a>
                     <a className="emails" href=""><p>Tiger</p></a>
