@@ -104,6 +104,21 @@ function Board() {
                         perfectionist :)
                     </p>
                 </div>
+                 <div className="csa-card">
+                    <img className="csa-headshot"
+                        alt="board picture"
+                        src={boardHeadshots['Aryanna Jade Ileto.jpeg']}
+                        loading="lazy"
+                    />
+                    <h4 className="card-title">Aryanna Jade Ileto - Treasurer</h4>
+                    <p className="card-desc">
+                        Hi my name is Aryanna! I’m a 3rd yr psychology student 
+                        in Marshall College. I’m from LA and I love to explore 
+                        different cafes especially try their matcha! Also on my 
+                        free time I love try new restaurants, hangout with friends, 
+                        and watch romcoms! 
+                    </p>
+                </div>
                 <div className="csa-card">
                     <img className="csa-headshot"
                         alt="board picture"

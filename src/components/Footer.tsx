@@ -22,9 +22,9 @@ function Footer() {
                         <div><NavLink to="/">Home</NavLink></div>
                         <div><NavLink to="/events">Events</NavLink></div>
                         <div><NavLink to="/about">About</NavLink></div>
-                        <div><NavLink to="/journals">CS Journals</NavLink></div>
                         <div><NavLink to="/meet-the-board">Meet the Board</NavLink></div>
                         <div><NavLink to="/peer-mentoring"> Peer Mentoring </NavLink></div>
+                        <div><NavLink to="/leaderboard"> Leaderboarda </NavLink></div>
                         <div><NavLink to="/spotlight"> Spotlight </NavLink></div>
                         <div><NavLink to="/contact">Contact</NavLink></div>
                     </div>

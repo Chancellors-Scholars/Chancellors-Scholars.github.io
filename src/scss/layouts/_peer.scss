@@ -1,5 +1,4 @@
-
-    .peer-mentoring {
+.peer-mentoring {
   margin: 1%;
 }
 
@@ -19,4 +18,44 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 10%;
+}
+
+#leaderboard{
+  color: black;
+}
+
+#leaderboard > h2{
+  width: 100%;
+  text-align: center;
+}
+
+#leaderboard-header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#leaderboard-header > span:first-child{
+  display: block;
+  width: 10%;
+}
+#leaderboard-header > span{
+  display: block;
+  width: 30%;
+}
+
+.leaderboard-row{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.leaderboard-row > span:first-child{
+  display: block;
+  width: 10%;
+}
+
+.leaderboard-row > span{
+  display: block;
+  width: 30%;
 }

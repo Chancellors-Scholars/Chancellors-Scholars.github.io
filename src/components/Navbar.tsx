@@ -47,6 +47,7 @@ function Navbar() {
                                 {/*<li className="topnav__item"><NavLink to="/journals" className="topnav__link">CS Journals</NavLink></li> */}
                                 <li className="topnav__item"><NavLink to="/meet-the-board" className="topnav__link">Meet the Board</NavLink></li>
                                 <li className="topnav__item"><NavLink to="/peer-mentoring" className="topnav__link"> Peer Mentoring </NavLink></li>
+                                <li className="topnav__item"><NavLink to="/leaderboard" className="topnav__link"> Leaderboard </NavLink></li>
                                 <li className="topnav__item"><NavLink to="/spotlight" className="topnav__link"> Spotlight </NavLink></li>
                                 <li className="topnav__item"><NavLink to="/contact" className="topnav__link">Contact</NavLink></li>
                             </ul>

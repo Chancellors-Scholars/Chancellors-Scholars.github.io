@@ -303,7 +303,7 @@ small {
 }
 
 #about-banner {
-  background-image: url("../img/2019 MLK Parade.png");
+  background-image: url("../img/aboutus.jpg");
   background-color: #ffffff;
   background-size: 100%;
   display: flex;
@@ -311,7 +311,7 @@ small {
   align-items: center;
   flex-direction: column;
   padding: 1.5rem 5% 0 5%;
-  background-position-y: 25%;
+  background-position-y: 60%;
   background-size: cover;
   color: black;
 }
@@ -675,6 +675,193 @@ small {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10%;
+}
+
+#leaderboard {
+  color: black;
+}
+
+#leaderboard > h2 {
+  width: 100%;
+  text-align: center;
+}
+
+#leaderboard-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#leaderboard-header > span:first-child {
+  display: block;
+  width: 10%;
+}
+
+#leaderboard-header > span {
+  display: block;
+  width: 30%;
+}
+
+.leaderboard-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.leaderboard-row > span:first-child {
+  display: block;
+  width: 10%;
+}
+
+.leaderboard-row > span {
+  display: block;
+  width: 30%;
+}
+
+/* Blue + White scheme inspired by your reference image */
+.lb-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.lb-card {
+  width: min(520px, 100%);
+  border-radius: 22px;
+  background: linear-gradient(180deg, #0b3aa4 0%, #0a2f83 55%, #08255f 100%);
+  color: #ffffff;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  position: relative;
+}
+
+.lb-header {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 18px 18px 12px 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.lb-logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  font-size: 18px;
+}
+
+.lb-title {
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  font-size: 22px;
+}
+
+.lb-subtitle {
+  opacity: 0.85;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.lb-list {
+  padding: 14px;
+  display: grid;
+  gap: 10px;
+}
+
+.lb-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.lb-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.lb-avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: #ffffff;
+  color: #0b3aa4;
+  font-weight: 800;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+.lb-avatar img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.lb-text {
+  min-width: 0;
+}
+
+.lb-name {
+  font-weight: 800;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lb-meta {
+  font-size: 12px;
+  opacity: 0.82;
+}
+
+.lb-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lb-points {
+  font-weight: 800;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+}
+
+.lb-rankBadge {
+  width: 44px;
+  height: 34px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: #ffffff;
+  color: #0b3aa4;
+  font-weight: 900;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.lb-footer {
+  padding: 12px 16px 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.lb-footNote {
+  font-size: 12px;
+  opacity: 0.85;
 }
 
 /*#bootstrap-overrides{

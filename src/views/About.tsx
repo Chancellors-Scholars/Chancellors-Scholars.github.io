@@ -9,7 +9,7 @@ function About() {
         <div
           className="row lazy main-bg-img"
           id="about-banner"
-          data-original="resources/2019 MLK Parade.jpg"
+          data-original="img/aboutus.jpg"
           
         >
           
