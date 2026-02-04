@@ -195,6 +195,7 @@ small {
     align-items: center;
     flex-basis: 0;
     flex-grow: 1;
+
 }
 
 #collage img {
@@ -300,6 +301,11 @@ small {
 
 #event-title {
   text-align: center;
+}
+
+.collage-item > img {
+  width: 15em;
+  height: 10em;
 }
 
 #about-banner {
