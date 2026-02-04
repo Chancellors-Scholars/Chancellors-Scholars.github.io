@@ -1,4 +1,3 @@
-import React from "react";
 import { mentorTeams, type MentorTeam } from "../data/mentorLeaderboard";
 
 function ordinal(n: number) {
