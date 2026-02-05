@@ -119,7 +119,7 @@ export const mentorTeams: MentorTeam[] = [
     id: "team-19",
     name: "Trailblazers",
     members: ["Aaron Delgado", "Preston Dang"],
-    points: 12,
+    points: 22,
   },
   {
     id: "team-20",
