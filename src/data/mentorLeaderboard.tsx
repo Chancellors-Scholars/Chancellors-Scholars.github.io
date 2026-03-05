@@ -83,13 +83,13 @@ export const mentorTeams: MentorTeam[] = [
     id: "team-13",
     name: "Meowl",
     members: ["Justin Phan", "Andy Huang"],
-    points: 44,
+    points: 18,
   },
   {
     id: "team-14",
     name: "Domesticated Chimps",
     members: ["Justin Phan", "Ricardo Bustamante"],
-    points: 44,
+    points: 18,
   },
   {
     id: "team-15",
@@ -113,13 +113,13 @@ export const mentorTeams: MentorTeam[] = [
     id: "team-18",
     name: "Visionaries",
     members: ["Aaron Delgado", "Ricardo Gonzalez"],
-    points: 20,
+    points: 10,
   },
   {
     id: "team-19",
     name: "Trailblazers",
     members: ["Aaron Delgado", "Preston Dang"],
-    points: 32,
+    points: 22,
   },
   {
     id: "team-20",
@@ -185,7 +185,7 @@ export const mentorTeams: MentorTeam[] = [
     id: "team-30",
     name: "med heads",
     members: ["Alondra Gutierrez", "Thomas Do"],
-    points: 61,
+    points: 13,
   },
   {
     id: "team-31",
@@ -203,7 +203,7 @@ export const mentorTeams: MentorTeam[] = [
     id: "team-33",
     name: "Visionaries",
     members: ["Leyna Thai", "Jacky Tian"],
-    points: 10,
+    points: 0,
   },
   {
     id: "team-34",
@@ -221,7 +221,7 @@ export const mentorTeams: MentorTeam[] = [
     id: "team-36",
     name: "THE DYNAMIC DUO",
     members: ["Jason Dinh", "Ronaldo Sanchez"],
-    points: 39,
+    points: 29,
   },
   {
     id: "team-37",
