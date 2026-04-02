@@ -1,199 +1,160 @@
-
-    
- /*   .home-section {
-        background-color: #E6E8E6;
-        margin-top: 3vw;
-        /* margin-bottom: 3vw; 
-    }
-
-    #home-title {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 15px;
-    }
-
-    #home-banner {
-        background-image: url('../img/geisel.png');
-        background-color: #ffffff;
-       
-        background-size: 100%;
-    }
-
-    
-
-    .board-image > img {
-        border-radius: 50%;
-        height: auto;
-        /* object-fit: scale-down; 
-    }
-
-    
-*/
-
 #home-banner {
-    background-image: url('../img/geisel.png');
-    background-color: #ffffff;
-    background-size: 100%;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
-    padding: 1.5rem 5% 0 5%;
-    @media (width > 40em) {
-        background-size: cover;
-        height: 25rem;
-        background-position-y: 25%;
-        
-    }
+  background-image: url('../img/geisel.png');
+  background-color: #ffffff;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem 5% 0 5%;
+
+  @media (width > 40em) {
+    background-size: cover;
+    height: 25rem;
+    background-position-y: 25%;
+  }
 }
+
 #homepage-title {
-    font-size: 3.5rem;
-    text-align: center;
-    @media (width < 40em)  {
-        font-size: 2.5rem;
-    }
+  font-size: 3.5rem;
+  text-align: center;
+
+  @media (width < 40em) {
+    font-size: 2.5rem;
+  }
 }
 
 #contact-button {
-        display: flex;
-        border-radius: .6rem;
-        background: #FFAD69;
-        width: 150px;
-        height: 40px;
-        justify-content: space-around;
-        align-items: center;
-        margin: 15px;
+  display: flex;
+  border-radius: 0.6rem;
+  background: #FFAD69;
+  width: 150px;
+  height: 40px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px;
 }
 
 #contact-button > a {
-        color: #FBFEF9;
-    text-align: center;
+  color: #FBFEF9;
+  text-align: center;
 }
+
 .main-title {
-        display: flex;
-        justify-content: center;
-    }
-    /*#about-card {
-        display: flex;
-        min-height: 30vw;
-        justify-content: space-between;
-        padding: 15px;
-    }
-    #about-us-blurb {
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        flex-grow: 1;
-        flex-basis: 0;
-    }
-    #collage {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-basis: 0;
-        flex-grow: 1;
-    }
+  display: flex;
+  justify-content: center;
+}
 
-    #collage img {
-        object-fit: cover;
-    }
+.event-card {
+  transition: all 0.3s;
+}
 
-    .collage-item {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-        */
-    #contact-button {
-        display: flex;
-        border-radius: .6rem;
-        background: #FFAD69;
-        width: 150px;
-        height: 40px;
-        justify-content: space-around;
-        align-items: center;
-        margin: 15px;
-    }
+.event-card:hover {
+  transform: scale(1.03);
+}
 
-    #contact-button > a {
-        color: #FBFEF9;
-    }
-    .event-card {
-        transition: all 0.3s;
-    }
+#event-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 200px;
+}
 
-    .event-card:hover {
-        transform: scale(1.03);
-    }
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 4rem 6rem;
+  margin-top: 2em;
+  background: #e6e8e6;
 
-    #event-cards {
-        display: flex;
-        flex-direction: column;
-        align-items: space-evenly;
-        min-height: 200px;
-    }
+  @media (max-width: 900px) {
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+    gap: 2rem;
+  }
+}
 
-    #about{
-        display:flex;
-        
-        flex-direction: row;
-        background-color: #e6e8e6;
-        margin-top: 2em;
-        justify-content: space-evenly;
-        align-items: center;
-        width:auto;
-        @media (width < 40em) {
-            flex-direction: column;
-            gap: 2em;
-        }
-        padding: 5%;
-        
-    }
-    
-    .about-section{
-        
-        width: 45%;
-        
-        @media (width < 40em){
-            width: auto;
-        }
-    }
-    #about-text{
-        color:black;
-        align-items: center;
-        
-       
-    }
-    #about-text > h2{
-        text-align: center;
-       
-    }
-    #about-text > p{
-        text-align: center;
-        margin-bottom:0;
-    }
-    #about-text > a{
-        display: block;
-        list-style-type: none;
-        color:#4C81C5;
-        text-align: center;
-        margin:0;
-       
-    }
-    #about-images{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        align-content: space-evenly;
-        flex-wrap:wrap;
-        
-    }
+.about-section {
+  width: 45%;
 
-    #event{
-        margin-top: 2em;
-        background-color: #e6e8e6;
-        color: black;
-    }
-    #event-title{
-        text-align: center;
-    }
+  @media (max-width: 900px) {
+    width: 100%;
+  }
+}
+
+#about-text {
+  flex: 1;
+  max-width: 650px;
+  color: black;
+}
+
+#about-text > h2 {
+  text-align: center;
+}
+
+#about-text > p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#about-text > a {
+  display: block;
+  color: #4C81C5;
+  text-align: center;
+  margin: 0;
+}
+
+#about-images {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(180px, 1fr));
+  gap: 1rem;
+  width: 100%;
+  max-width: 560px;
+  align-items: stretch;
+}
+
+.about-image-card {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 16px;
+  background: #f4f4f4;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+  animation: aboutFadeIn 0.4s ease;
+}
+
+.about-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
+
+.about-image-card:hover .about-image {
+  transform: scale(1.04);
+}
+
+@keyframes aboutFadeIn {
+  from {
+    opacity: 0.7;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#event {
+  margin-top: 2em;
+  background-color: #e6e8e6;
+  color: black;
+}
+
+#event-title {
+  text-align: center;
+}
