@@ -171,7 +171,7 @@ function Board() {
                         src={boardHeadshots['Tammy Bao.jpeg']}
                         loading="lazy"
                     />
-                    <h4 className="card-title">Tammy Bao - Fundraising Chai</h4>
+                    <h4 className="card-title">Tammy Bao - Fundraising Chair</h4>
                     <p className="card-desc">
                         Hi, I'm Tammy, one of the Fundraising Chairs for 
                         CSA! I'm from the Bay Area, and I love 

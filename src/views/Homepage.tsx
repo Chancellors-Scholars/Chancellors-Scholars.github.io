@@ -28,7 +28,14 @@ function Homepage() {
   useEffect(() => {
     fetch("/about-images.json")
       .then((res) => res.json())
-      .then((data: AboutImage[]) => setAboutImages(data))
+      .then((data: AboutImage[]) => {
+        setAboutImages(data);
+
+        if (data.length > 0) {
+          const randomIndex = Math.floor(Math.random() * data.length);
+          setStartIndex(randomIndex);
+        }
+      })
       .catch(console.error);
   }, []);
 
@@ -71,6 +78,7 @@ function Homepage() {
       <div id="about">
         <div className="about-section" id="about-text">
           <h2 id="about-title">About Us</h2>
+
           <p id="about-par">
             As the Chancellor&apos;s Scholar&apos;s Alliance, a nonprofit,
             student run organization, we intend to serve as a resource for
@@ -80,6 +88,7 @@ function Homepage() {
             with mentoring networks, bonding socials, and service outreaches in
             order to build unity, teamwork, and purpose.
           </p>
+
           <NavLink to="/about" id="about-link">
             More about us...
           </NavLink>
@@ -88,11 +97,7 @@ function Homepage() {
         <div className="about-section" id="about-images">
           {visibleImages.map((image, index) => (
             <div className="about-image-card" key={`${image.src}-${index}`}>
-              <img
-                src={image.src}
-                alt={image.alt}
-                className="about-image"
-              />
+              <img src={image.src} alt={image.alt} className="about-image" />
             </div>
           ))}
         </div>
@@ -101,6 +106,7 @@ function Homepage() {
       <div id="event">
         <div className="container text-center" id="event-cards">
           <h1 id="event-title">Events</h1>
+
           <div style={{ display: "flex", justifyContent: "center" }}>
             {isLoaded ? (
               events.length > 0 ? (
