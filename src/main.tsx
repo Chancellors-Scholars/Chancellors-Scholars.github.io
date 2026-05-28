@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 /*import './index.css'*/
 import App from './App.tsx'
+import { inject } from '@vercel/analytics'
 
 // CSS Imports
 /*import '../src/css/animate.min.css'
@@ -29,6 +30,9 @@ import PeerMentor from './views/PeerMentor.tsx';
 import Contact from './views/Contact.tsx';
 import Leaderboard from './views/Leaderboard.tsx';
 import Spotlight from './views/Spotlight.tsx';
+
+// Initialize Vercel Analytics
+inject();
 
 // Routing
 const routes: RouteObject[] = [
